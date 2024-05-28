@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  user-select: none;
+}
+.pagelayout {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: rgb(232, 231, 219);
+}
+.fieldset {
+  width: 70vw;
+  height: 85vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-image: url("../media/index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.fieldset form {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif,
+    "Lucida Sans", Arial, sans-serif;
+  font-size: larger;
+  margin-left: 0.2cm;
+  width: 50%;
+  height: 60%;
+  background-color: rgba(232, 231, 219, 0.457);
+  color: rgb(65, 90, 64);
+  display: inline;
+}
+.form div {
+  margin-left: 4cm;
+}
+.title {
+  padding-top: 0cm;
+  font-size: xx-large;
+  color: rgb(165, 42, 83);
+}
+.label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 1cm;
+  margin-right: 2cm;
+}
+.label1 {
+  margin-top: 3cm;
+}
+.label input {
+  background-color: rgba(240, 248, 255, 0);
+  border-top: 0cap;
+  border-left: 0cap;
+  border-right: 0cap;
+}
+input:hover {
+  outline: none;
+  border-bottom: 3px solid rgb(27, 88, 54);
+}
+input:focus {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif,
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  outline: none;
+  border-bottom: 4px solid rgb(165, 42, 83);
+}
+button {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif,
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  outline: none;
+  margin-top: 6.5cap;
+  border: 0cap;
+  padding-top: 0.1cm;
+  padding-bottom: 0.1cm;
+  padding-right: 1cm;
+  padding-left: 1cm;
+  border-radius: 0.5scap;
+  background-color: rgba(165, 42, 83, 0.742);
+}
+button:hover {
+  padding-top: 0.2cm;
+  padding-bottom: 0.2cm;
+  padding-right: 1.3cm;
+  padding-left: 1.3cm;
+  background-color: rgba(27, 88, 54, 0.733);
+}
